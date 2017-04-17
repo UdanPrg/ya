@@ -1,0 +1,361 @@
+.menu{
+  transition: background-color 0.5s ease;
+  background-color: rgb(21,21,21);
+}
+
+.act{
+  background-color: rgb(248,131,36) !important;
+}
+
+.act a{
+  color: #FFFFFF !important;  
+}
+
+.menu:hover{
+  background-color: rgb(248,131,36);    
+}
+
+.menu:hover ul li{
+  font-size: 1em;
+  color: rgb(0,0,0);
+}
+
+.menuDrop{
+  transition: background-color 0.5s ease;
+  background-color: rgb(220,220,220);
+  
+  color: rgb(0,0,0) !important;
+}
+
+.menuDrop:hover{
+  background-color: rgb(248,131,36) !important;    
+}
+
+.typed-cursor{
+	color: transparent;
+    opacity: 0;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s alternate;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+.social:hover {
+     -webkit-transform: scale(2);
+     -moz-transform: scale(2);
+     -o-transform: scale(2);
+ }
+ .social {
+     -webkit-transform: scale(1.2);
+     /* Browser Variations: */
+     
+     -moz-transform: scale(1.2);
+     -o-transform: scale(1.2);
+     -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+     -o-transition-duration: 0.5s;
+ }
+
+/*
+    Multicoloured Hover Variations
+*/
+ 
+ #social-fb:hover {
+     color: #3B5998;
+ }
+ #social-tw:hover {
+     color: #4099FF;
+ }
+ #social-gp:hover {
+     color: #d34836;
+ }
+ #social-em:hover {
+     color: #f39c12;
+ }
+
+
+
+
+ .panel-default .panel-heading{
+    background-color: rgb(54,69,79) !important;
+ }
+ .stand{
+    color: rgb(255,255,255);
+ }
+ .service{
+    color: rgb(54,69,79);
+ }
+
+.web{
+  animation-name: web;
+  animation-delay: 0s;
+  animation-duration: 1s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+@keyframes web{
+  from {
+     -webkit-transform: scale(0.75);
+     /* Browser Variations: */
+     
+     -moz-transform: scale(0.75);
+     -o-transform: scale(0.75);
+     -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+     -o-transition-duration: 0.5s;
+  }
+
+  to {
+     -webkit-transform: scale(1.15);
+     -moz-transform: scale(1.15);
+     -o-transform: scale(1.15);
+     color: rgb(247,104,53);
+     
+  }
+}
+
+.movil{
+  animation-name: movil;
+  animation-delay: 0.25s;
+  animation-duration: 1s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+@keyframes movil{
+  from {
+     -webkit-transform: scale(1);
+     /* Browser Variations: */
+     
+     -moz-transform: scale(1);
+     -o-transform: scale(1);
+     -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+     -o-transition-duration: 0.5s;
+  }
+
+  to {
+     -webkit-transform: scale(1.75);
+     -moz-transform: scale(1.75);
+     -o-transform: scale(1.75);
+     color: rgb(164,198,30);
+     
+  }
+}
+
+.soc{
+  animation-name: soc;
+  animation-delay: 0.5s;
+  animation-duration: 1s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-play-state: initial;
+}
+@keyframes soc{
+  from {
+     -webkit-transform: scale(1);
+     /* Browser Variations: */
+     
+     -moz-transform: scale(1);
+     -o-transform: scale(1);
+     -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+     -o-transition-duration: 0.5s;
+  }
+
+  to {
+     -webkit-transform: scale(1.49);
+     -moz-transform: scale(1.49);
+     -o-transform: scale(1.49);
+     color: rgb(59,89,152);
+     
+  }
+}
+
+.opti{
+  animation-name: opti;
+  animation-delay: 0.75s;
+  animation-duration: 1s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+@keyframes opti{
+  from {
+     -webkit-transform: scale(1);
+     /* Browser Variations: */
+     
+     -moz-transform: scale(1);
+     -o-transform: scale(1);
+     -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+     -o-transition-duration: 0.5s;
+  }
+
+  to {
+     -webkit-transform: scale(1.5);
+     -moz-transform: scale(1.75);
+     -o-transform: scale(1.75);
+     color: rgb(62,207,194);
+     
+  }
+}
+
+
+.security{
+  animation-name: security;
+  animation-delay: 1s;
+  animation-duration: 1s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+@keyframes security{
+  from {
+     -webkit-transform: scale(1);
+     /* Browser Variations: */
+     
+     -moz-transform: scale(1);
+     -o-transform: scale(1);
+     -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+     -o-transition-duration: 0.5s;
+  }
+
+  to {
+     -webkit-transform: scale(1.5);
+     -moz-transform: scale(1.5);
+     -o-transform: scale(1.5);
+     color: rgb(190,190,190);
+     
+  }
+}
+
+.commers{
+  animation-name: commers;
+  animation-delay: 1.25s;
+  animation-duration: 1s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+@keyframes commers{
+  from {
+     -webkit-transform: scale(1);
+     /* Browser Variations: */
+     
+     -moz-transform: scale(1);
+     -o-transform: scale(1);
+     -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+     -o-transition-duration: 0.5s;
+  }
+
+  to {
+     -webkit-transform: scale(1.25);
+     -moz-transform: scale(1.25);
+     -o-transform: scale(1.25);
+     color: rgb(26,31,113);
+     
+  }
+}
+
+.fac{
+  animation-name: fac;
+  animation-delay: 1.5s;
+  animation-duration: 1s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+@keyframes fac{
+  from {
+     -webkit-transform: scale(1);
+     /* Browser Variations: */
+     
+     -moz-transform: scale(1);
+     -o-transform: scale(1);
+     -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+     -o-transition-duration: 0.5s;
+  }
+
+  to {
+     -webkit-transform: scale(1.25);
+     -moz-transform: scale(1.25);
+     -o-transform: scale(1.25);
+     color: rgb(99,255,200);
+     
+  }
+}
+
+.cont{
+  animation-name: cont;
+  animation-delay: 1.75s;
+  animation-duration: 1s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+@keyframes cont{
+  from {
+     -webkit-transform: scale(1);
+     /* Browser Variations: */
+     
+     -moz-transform: scale(1);
+     -o-transform: scale(1);
+     -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+     -o-transition-duration: 0.5s;
+  }
+
+  to {
+     -webkit-transform: scale(1.25);
+     -moz-transform: scale(1.25);
+     -o-transform: scale(1.25);
+     color: rgb(104,59,16);
+     
+  }
+}
+
+.separ{
+    margin: 0.3em;
+ }
+
+ .icon-Js{
+  margin-top: 0.05em;
+  margin-left: 0.05em;
+  font-size: 1.8em;
+ }
+ .icon-Bootstrap{
+  margin-top: 0.08em;
+  font-size: 1.8em;
+ }
+
+ .icon-NodeJs{
+  margin-top: 0.12em;
+  margin-left: -0.17em;
+  font-size: 1.7em;
+ }
+ .icon-Js2{
+  margin-top: 0.08em;
+  margin-left: 0.001em;
+  font-size: 1.8em;
+ }
+
+ .up{
+    display:block;
+    cursor:pointer;
+    position: fixed;
+    top: 4.5em;
+    left: 3em;
+}

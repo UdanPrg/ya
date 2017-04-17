@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>RCE Soft Group</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/modern-business.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<style>
+    ul li .menu{
+       background-color: rgb(248,131,36) !important;    
+    }
+</style>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">RCE Soft Group|</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="act menu">
+                        <a href="index.html">Inicio</a>
+                    </li>
+                    <li class="menu">
+                        <a href="about.html">Nosotros</a>
+                    </li>
+                    <li class="menu">
+                        <a href="services.html">Servicios</a>
+                    </li>
+                    <li class="menu">
+                        <a href="portafolio.html">Portafolio</a>
+                    </li>
+                    <li class="menu">
+                        <a href="contact.html">Contactanos</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Header Carousel -->
+    <header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="fill" style="background-image:url('https://static.pexels.com/photos/90807/pexels-photo-90807.jpeg');"></div>
+                <div class="carousel-caption">
+                    <h3>Soluciones Tecnológicas Totales e Integrales Del Tercer Milenio.</h4>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('https://static.pexels.com/photos/196644/pexels-photo-196644.jpeg');"></div>
+                <div class="carousel-caption">
+                    <h1 style="color: #000!important;">Construcción</h1>
+                    <h3 style="color: #000!important;">Diseño Desde Plano En Papel.</h4>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('https://static.pexels.com/photos/6508/nature-laptop-outside-macbook.jpg');"></div>
+                <div class="carousel-caption">
+                    <h1 style="color: #000!important;">Diseños Responsivos</h1>
+                    <h3 style="color: #000!important;">Un Solo Diseño Para Todos Los Dispositivos.</h4>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Marketing Icons Section -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">
+                    RCE Soft Group
+                </h1>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                  <img src="img/pexels-photo.jpg" alt="Estrategia" class="img-circle">
+                  <div style="text-align: center;" class="caption">
+                    <h3>Estrategia</h3>
+                    <p>De diferenciación del diseño, como resultado del estudio de pre-factibilidad individual.</p>
+                  </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                  <img src="img/producto.jpeg" alt="Estrategia" class="img-circle">
+                  <div style="text-align: center;" class="caption">
+                    <h3>Producto</h3>
+                    <p></p>Solución total e integral para mejorar y modernizar la administración empresarial, diseñando e implementando sistemas de organización, manejo y control de la información en medios tecnológicos efectivos y seguros; a precio accesible al mercado-meta y con servicio de garantía post-venta.</p>
+                  </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                      <img src="img/people-office-group-team1.jpg" alt="Estrategia" class="img-circle">
+                      <div style="text-align: center;" class="caption">
+                        <h3>Mercado</h3>
+                        <p>Empresas e instituciones que estén viendo al futuro para la prestación de sus servicios, aceptando la tecnología como uno de los pilares de su funcionamiento y crecimiento.</p>
+                      </div>
+                    </div>
+            </div>
+        </div>
+        <!-- /.row -->
+        
+        <!-- Portfolio Section
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="page-header">Portfolio Heading</h2>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="portfolio-item.html">
+                    <img class="img-responsive img-portfolio img-hover" src="img/LOGO2_RCE_SOFT_ GROUP_ ORIGINAL.png" alt="">
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="portfolio-item.html">
+                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="portfolio-item.html">
+                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="portfolio-item.html">
+                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="portfolio-item.html">
+                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="portfolio-item.html">
+                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+                </a>
+            </div>
+        </div>
+        aquí /.row -->
+
+        <!-- Features Section -->
+        <!--
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="page-header">Modern Business Features</h2>
+            </div>
+            <div class="col-md-6">
+                <p>The Modern Business template by Start Bootstrap includes:</p>
+                <ul>
+                    <li><strong>Bootstrap v3.3.7</strong>
+                    </li>
+                    <li>jQuery v1.11.1</li>
+                    <li>Font Awesome v4.2.0</li>
+                    <li>Working PHP contact form with validation</li>
+                    <li>Unstyled page elements for easy customization</li>
+                    <li>17 HTML pages</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
+            </div>
+            <div class="col-md-6">
+                <img class="img-responsive" src="http://placehold.it/700x450" alt="">
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Call to Action Section -->
+            <div class="container-fluid">
+                    <div class="text-center center-block">
+                        <h3>- Siguenos -</h3>
+                        <br>
+                        <a href=""><i id="social-fb" class="fa fa-facebook-square fa-3x social separ"></i></a>
+                        <a href=""><i id="social-tw" class="fa fa-twitter-square fa-3x social separ"></i></a>
+                        <a href="contact.html"><i id="social-em" class="fa fa-envelope-square fa-3x social separ"></i></a>
+                    </div>
+            </div>
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; RCE Soft Group 2016</p>
+                </div>
+            </div>
+        </footer>
+
+        <div class="up">
+            <img src="img/RCE1.jpg">
+        </div>
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Script to Activate the Carousel -->
+    <script type="text/javascript" src="js/typed.js-master/js/typed.js"></script>
+    <!-- Typed -->
+    <script>
+    $('.carousel').carousel({
+        interval: 6000 //changes the speed
+    })
+    </script>
+    
+</body>
+
+</html>
